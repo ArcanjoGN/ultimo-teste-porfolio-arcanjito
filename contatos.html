@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CONTATO</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .contatos-section {
+      background-color: #000000;
+      padding: 20px;
+      color: white;
+    }
+
+    .contatos-section h2 {
+      margin-top: 0;
+    }
+
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      margin-top: 20px;
+    }
+
+    .form-container label {
+      margin-bottom: 5px;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"] {
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    .form-container button {
+      padding: 10px 20px;
+      background-color: #ff0000;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      border: none;
+    }
+
+    .form-container button:hover {
+      background-color: #a04545;
+    }
+    .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4d3737;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+   
+  }
+
+  .botao:hover {
+    background-color: #ff0000;
+  }
+  footer {
+      background-color: black;
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      position: absolute;
+      bottom: 0%;
+      left: 0;
+      width: 99%;
+      height: 60px; 
+      background-color: #000000;
+    }
+
+    .left-section {
+      font-weight: bold;
+    }
+
+    .right-section {
+      display: flex;
+    }
+
+    .right-section a {
+      margin-right: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="contatos-section">
+      <h2>CONTATO</h2>
+      <div class="form-container">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome">
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu sobrenome">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Seu email">
+
+        <label for="mensagem">Envie uma mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
+
+        <button type="submit">Enviar</button>
+      </div>
+    </div>
+  </div>
+  <footer>
+   
+    <div class="left-section">
+      ARCANJOGN
+    </div>
+    <a href="portifolio.html" class="botao">HOME</a>
+    <div class="right-section">
+      <a href="https://vimeo.com/user142293790">Vimeo</a>
+      <a href="https://www.instagram.com/arcanjo_gonzalez/">instagram</a>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
